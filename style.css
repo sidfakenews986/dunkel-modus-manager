@@ -10,7 +10,7 @@ body.dark-mode {
 #dark-mode-toggle {
     cursor: pointer;
     padding: 10px;
-    background-color: #0056b3;
+    background-color: #007BFF; /* Changed from #0056b3 to #007BFF */
     color: white;
     border: none;
     border-radius: 5px;
