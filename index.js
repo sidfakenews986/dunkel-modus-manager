@@ -16,8 +16,8 @@ class DarkModeManager {
     }
 
     setupListeners() {
-        const toggleButton = document.getElementById('toggle-dark-mode'); // Updated button ID
-        if (toggleButton) { // Check if the toggle button exists
+        const toggleButton = document.getElementById('toggle-dark-mode'); // Check if the toggle button exists
+        if (toggleButton) { // Ensure the toggle button is not null
             toggleButton.addEventListener('click', () => this.toggleDarkMode());
         }
     }
